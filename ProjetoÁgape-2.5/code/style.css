@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+header {
+    background: #000;
+}
+
+a.navbar-brand, header {
+    font-size: 30px;
+    color: #CF0F00;
+}
+
+a.nav-link {
+    color: #461504;
+}
+
+#home {
+    margin: 1.25rem 0 0 auto;
+    width: 100vw;
+    Background : url("fotoagape.png") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height : 100vh;
+}
+
+.home {
+    background-color: #ffd9d99f;
+    width: 100vw;
+    height : 100vh;
+}
+
+.conteudo-principal {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 33vh;
+}
+
+#about, #trajetoria{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#about {
+    flex-wrap: wrap;
+}
+
+#trajetoria {
+    flex-wrap: wrap-reverse;
+}
+
+#apoio {
+    margin: 0 15%;
+    text-align: center;
+}
+
+hr {
+    color: #FFD9D9;
+}
+
+.h1-home {
+    font-size: 8vh;
+    color: #461504;
+}
+
+.camisa-agape {
+    border-radius: 0.5rem;
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;    
+}
+
+#agape {
+    color: #CF0F00;
+}
+
+.h2-home {
+    font-size: 5vh;
+    color: #461504;
+}
+
+
+.button-geral {
+    text-transform: uppercase;
+    color: white;
+    background-color: #CF0F00;
+    width: 200px;
+    height: 50px;
+    border:1px #B41D1D solid;
+    border-radius: 8px;
+}
+
+.button-geral:hover {
+    background-color: #cf0e00cb;
+}
+
+.imagem-about {
+    display: inline-block;
+    justify-content: end;
+}
+
+#sub-logo {
+    width: 15em;
+
+}
+
+.sub-logo {
+    justify-content: start;
+}
+
+
+.coluna {
+    width: 40%;
+}
+
+@media screen and (max-width: 720px) {
+    .coluna {
+        width: 90%;
+    }
+}
+
+
+.h2-conteudo {
+    color: #461504;
+   font-size: 7vh;
+}
+
+.conteudo {
+    justify-content: center;
+    align-items: center;
+}
+
+.p-conteudo {
+    color: #461504;
+    font-size: 1rem;
+    text-align: justify;  
+}
+
+
+/* footer*/
+
+.h2-footer {
+    display: inline;
+}
+.logo {
+    width: 200px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #cf0f00;
+}
+
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* calendar*/
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.h1-calendar {
+    font-size: 9vh;
+}
+
+.p-calendar {
+    font-size: 3vh;
+}
+
+#title-calendar {
+    padding-top: 10vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

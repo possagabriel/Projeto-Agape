@@ -124,6 +124,9 @@ hr {
     .coluna {
         width: 90%;
     }
+    .conteudo-principal {
+        padding-top: 20vh;
+    }
 }
 
 

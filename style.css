@@ -56,7 +56,7 @@ a.nav-link {
     flex-wrap: wrap-reverse;
 }
 
-#apoio {
+#section-apoio {
     margin: 0 15%;
     text-align: center;
 }
@@ -135,7 +135,7 @@ hr {
    font-size: 7vh;
 }
 
-.conteudo {
+.div-conteudo {
     justify-content: center;
     align-items: center;
 }
@@ -176,7 +176,7 @@ nav {
 
 /* calendar*/
 
-.calendar {
+.section-calendar {
     display: flex;
     justify-content: center;
     align-items: center;
